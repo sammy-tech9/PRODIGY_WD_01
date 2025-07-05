@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Eidigbragm Book Emporium</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+<body>
+  <!-- Fixed Navigation Menu -->
+   <header>
+       <nav id="navbar">
+           <div class="logo">Eidigbragm</div>
+           <ul class="nav-links">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#collection">Gallery</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+          <div class="mobile-menu" id="mobileMenu">
+            <a href="#collection">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact Us</a>
+          </div>
+
+    </header>
+
+  <!-- Hero Image Section -->
+  <section class="hero">
+    <img src="assets/bookshop.jpg" alt="">
+    <div class="hero-text">
+      <h1>The Eidigbragm Book Emporium</h1>
+      <p>Whispers of wisdom through antique shelves</p>
+    </div>
+  </section>
+
+  <!-- 📚 Book Sections -->
+  <section class="section books" id="collection">
+    <h1 class="section-title">Curated Collections</h1>
+    <div class="gallery-container">
+        <div class="image-gallery">
+            <img src="assets/Collections.jpg" alt="Collection1">
+            <img src="assets/collection2.jpg" alt="collection2">
+            <img src="assets/collection3.jpg" alt="collection3">
+            <img src="assets/collection4.jpg" alt="collection4">
+        </div>
+        <div class="text-panel">
+         <p>Explore our curated vintage treasures and timeless tomes.</p>
+        <button>Browse Collection</button>
+        </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Founded in the forgotten corners of a cobblestone alley,<strong> Eidigbragm Book Emporium </strong>offers a sanctuary of soul-strirring literature and vintage gems. Our shelves echo tales of old, inviting you to uncover the past with every turn of the page. we believe books are more than ink and paper - 
+    they are timeless whispers of wisdom passed down through generations.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions, suggestions, or just want to say hello? Drop us a message.</p>
+
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <div id="form-message" class="form-message"></div>
+    </form>
+  </section>
+
+  <!-- 🖋️ Footer -->
+  <footer>
+    <p>© 2025 Eidigbragm Book Emporium. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
